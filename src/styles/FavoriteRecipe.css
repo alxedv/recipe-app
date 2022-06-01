@@ -1,0 +1,59 @@
+.filter-buttons {
+  align-items: center;
+  display: flex;
+  height: 150px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.filter-buttons button {
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  width: 100px;
+}
+
+.favorite-card {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.favorite-card h3 {
+  color: black;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.favorite-image {
+  border-radius: 10px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  width: 150px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.info-favorite {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 140px;
+}
+
+.info-favorite button {
+  background-color: white;
+  border-style: none;
+}

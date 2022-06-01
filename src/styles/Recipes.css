@@ -1,0 +1,43 @@
+.categoryBar {
+  margin-top: 60px;
+}
+
+.recommended-card {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.recommended-card, img {
+  width: 50%;
+}
+
+.finish-recipe {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+
+}
+
+.empty {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.explore-btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  width: 60%;
+}
+
+.explore-foods-btn {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  margin-top: 200px;
+}

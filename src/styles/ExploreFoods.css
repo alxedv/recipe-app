@@ -1,0 +1,15 @@
+.explorefoods-btn {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.explorefoods-btn button {
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  height: 100px;
+  width: 150px;
+}

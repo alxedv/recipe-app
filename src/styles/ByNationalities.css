@@ -1,0 +1,17 @@
+.ByNationality {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.nationalities-drop {
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+.nationalities-drop:focus {
+  outline: none;
+}
