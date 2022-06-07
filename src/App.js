@@ -21,6 +21,7 @@ import './styles/Recipes.css';
 import NotFound from './pages/NotFound';
 
 function App() {
+  document.title = 'Tryfoods';
   return (
     <ContextProvider>
       <BrowserRouter>
